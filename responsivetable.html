@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Table structure</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      .table{
+        
+        width:100%;
+       display: table;
+        color:black;
+      }
+      .title{
+               display:table-caption;
+               color:black;
+               background-color:orange;
+               text-align:center;
+               padding:5px;
+               width:100%;
+               font-size:20px;
+               font-weight:bolder;
+               margin-bottom: 3px;
+  }
+    .Heading
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: justify;
+        background-color: chartreuse;
+    }
+    .Row
+    {
+        display: table-row;
+    }
+    .data
+    {
+        display:table-cell;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+  
+    @media only screen and (min-device-width: 370px) and (max-device-width: 1350px){
+       .title{
+              color:black;
+              background-color:blueviolet;
+              margin:0
+       }
+       .Heading{
+           color:red;color:red;
+           background-color: teal;
+       }
+    @media only screen and (min-device-width: 360px) and (max-device-width: 430px){
+       .title{
+              color:blue;
+              background-color:yellow;
+              margin:0
+              
+        }
+        .Heading{
+          color:mediumvioletred;
+           background-color:royalblue;
+       }
+        
+    }
+ 
+</style>
+</head>
+<body>
+   
+    <div class="table">
+      <div class="title">
+                <h1>Responsive Table</h1>
+      </div>
+        <div class="Heading">
+           <div class="data">
+            <p>S.no</p>
+           </div>
+           <div class="data">
+            <p>S.Name</p>
+           </div>
+           <div class="data">
+            <p>Age</p>
+           </div>
+           <div class="data">
+            <p>BloodGroup</p>
+           </div>
+        </div>
+
+        <div class="Row">
+          <div class="data">
+           <p>1</p>
+          </div>
+          <div class="data">
+            <p>Kumar </p>
+           </div>
+           <div class="data">
+            <p>24</p>
+           </div>
+           <div class="data">
+            <p>O+ve</p>
+           </div>
+        </div>
+        <div class="Row">
+            <div class="data">
+             <p>2</p>
+            </div>
+            <div class="data">
+              <p>Manoj</p>
+             </div>
+             <div class="data">
+              <p>35</p>
+             </div>
+             <div class="data">
+              <p>O-ve</p>
+            </div>
+          </div>
+          <div class="Row">
+            <div class="data">
+             <p>3</p>
+            </div>
+            <div class="data">
+              <p>Priya </p>
+             </div>
+             <div class="data">
+              <p>43</p>
+             </div>
+             <div class="data">
+              <p>AB-</p>
+             </div>
+            </div>
+        <div class="Row">
+           <div class="data">
+                 <p>4</p>
+            </div>
+            <div class="data">
+                <p>Veeru </p>
+            </div>
+            <div class="data">
+                 <p>43</p>
+            </div>
+            <div class="data">
+                 <p>AB+ve</p>
+             </div>
+
+        </div>
+</div>
+</body>
+</html>
